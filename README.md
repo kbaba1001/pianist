@@ -9,6 +9,10 @@ then execute:
     $ wget https://raw.githubusercontent.com/kbaba1001/pianist/master/dot.Xmodmap -O ~/.Xmodmap
     $ xmodmap ~/.Xmodmap
 
+## Usage
+
+![pianist](https://cloud.githubusercontent.com/assets/1624680/6942296/80f2e102-d8c1-11e4-9830-8b92a0f6c93d.png)
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/hoge/fork )
