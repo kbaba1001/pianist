@@ -1,0 +1,65 @@
+! CapsLock ( 66) => Ctrl_L
+! Tab      ( 23) => Super_L
+! Super_L  (133) => Space
+! Shift_R  ( 62) => Shift_Lock
+! Quart    ( 48) => Ctrl_R
+! Space    ( 65) => Mode_switch
+clear Lock
+clear Control
+remove Shift = Shift_R
+clear Mod4
+clear Mod5
+
+keycode 66  = Control_L
+keycode 23  = Super_L
+keycode 133 = space
+keycode 62  = Shift_Lock
+keycode 48  = Control_R
+keycode 65  = Mode_switch
+
+add Control = Control_L
+add Mod4    = Super_L
+add Lock    = Shift_Lock
+add Control = Control_R
+add Mod5    = Mode_switch
+
+! Japanese thumb key
+keycode 100 = Return NoSymbol Return NoSymbol
+keycode 101 = BackSpace NoSymbol Delete NoSymbol
+keycode 102 = space NoSymbol space NoSymbol
+
+! left hand
+keycode  24 = q Q Escape Escape
+keycode  25 = w W quotedbl quotedbl
+keycode  26 = e E apostrophe apostrophe
+keycode  27 = r R grave grave
+keycode  28 = t T Tab ISO_Left_Tab
+
+keycode  38 = a A Left Left
+keycode  39 = s S Up Up
+keycode  40 = d D Down Down
+keycode  41 = f F Right Right
+keycode  42 = g G Zenkaku_Hankaku Zenkaku_Hankaku
+
+keycode  52 = z Z Home Home
+keycode  53 = x X Prior Prior
+keycode  54 = c C Next Next
+keycode  55 = v V End End
+
+! right hand
+keycode  30 = u U asterisk dollar
+keycode  31 = i I underscore at
+keycode  32 = o O equal equal
+keycode  33 = p P numbersign asciicircum
+
+keycode  43 = h H minus plus
+keycode  44 = j J BackSpace Delete
+keycode  45 = k K space space
+keycode  46 = l L Return Return
+keycode  47 = colon semicolon ampersand percent
+
+keycode  57 = n N parenleft braceleft
+keycode  58 = m M parenright braceright
+keycode  59 = comma less bracketleft exclam
+keycode  60 = period greater bracketright question
+keycode  61 = slash asciitilde bar backslash
