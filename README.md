@@ -6,8 +6,7 @@ PIANIST is a graceful keybind.
 
 then execute:
 
-    $ git clone git@github.com:kbaba1001/pianist.git ~/.pianist
-    $ cp ~/.pianist/dot.Xmodmap ~/.Xmodmap
+    $ wget https://raw.githubusercontent.com/kbaba1001/pianist/master/dot.Xmodmap -O ~/.Xmodmap
     $ xmodmap ~/.Xmodmap
 
 ## Contributing
