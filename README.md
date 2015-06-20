@@ -11,7 +11,7 @@ then execute:
 
 ## Usage
 
-![pianist](https://cloud.githubusercontent.com/assets/1624680/6942338/d1b56542-d8c1-11e4-90e7-7c0db0c37807.png)
+![pianist](https://cloud.githubusercontent.com/assets/1624680/8266352/93670362-1765-11e5-9f7e-343ac4659f69.png)
 
 ## Contributing
 
