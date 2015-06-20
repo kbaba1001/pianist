@@ -1,20 +1,19 @@
 ! CapsLock ( 66) => Ctrl_L
 ! Tab      ( 23) => Super_L
 ! Super_L  (133) => Space
-! Shift_R  ( 62) => Shift_Lock
-! Quart    ( 48) => Ctrl_R
+! semicolon( 47) => Ctrl_R
+! Quart    ( 48) => Shift_Lock
 ! Space    ( 65) => Mode_switch
 clear Lock
 clear Control
-remove Shift = Shift_R
 clear Mod4
 clear Mod5
 
 keycode 66  = Control_L
 keycode 23  = Super_L
 keycode 133 = space
-keycode 62  = Shift_Lock
-keycode 48  = Control_R
+keycode 47  = Control_R
+keycode 48  = Shift_Lock
 keycode 65  = Mode_switch
 
 add Control = Control_L
@@ -45,18 +44,19 @@ keycode  52 = z Z Home Home
 keycode  53 = x X Prior Prior
 keycode  54 = c C Next Next
 keycode  55 = v V End End
+keycode  56 = b B percent semicolon
 
 ! right hand
-keycode  30 = u U asterisk dollar
+keycode  29 = y Y asciicircum asciicircum
+keycode  30 = u U equal dollar
 keycode  31 = i I underscore at
-keycode  32 = o O equal equal
-keycode  33 = p P numbersign asciicircum
+keycode  32 = o O colon asterisk
+keycode  33 = p P ampersand numbersign
 
 keycode  43 = h H minus plus
 keycode  44 = j J BackSpace Delete
 keycode  45 = k K space space
 keycode  46 = l L Return Return
-keycode  47 = colon semicolon ampersand percent
 
 keycode  57 = n N parenleft braceleft
 keycode  58 = m M parenright braceright
