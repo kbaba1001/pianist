@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>PIANIST</name>
+
+    <item>
+    <name>PIANIST</name>
+    <identifier>private.pianist</identifier>
+    <!-- Space to Fn -->
+    <autogen>--KeyToKey-- KeyCode::SPACE,  KeyCode::FN</autogen>
+
+    <!-- left hund -->
+    <autogen>--KeyToKey-- KeyCode::Q, ModifierFlag::FN, KeyCode::ESCAPE</autogen>
+    <autogen>--KeyToKey-- KeyCode::W, ModifierFlag::FN, KeyCode::QUOTE, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::E, ModifierFlag::FN, KeyCode::QUOTE</autogen>
+    <autogen>--KeyToKey-- KeyCode::R, ModifierFlag::FN, KeyCode::BACKQUOTE</autogen>
+    <autogen>--KeyToKey-- KeyCode::T, ModifierFlag::FN, KeyCode::TAB</autogen>
+
+    <autogen>--KeyToKey-- KeyCode::A, ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::S, ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
+    <autogen>--KeyToKey-- KeyCode::D, ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>--KeyToKey-- KeyCode::F, ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
+    <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::FN, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+
+    <autogen>--KeyToKey-- KeyCode::Z, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::X, ModifierFlag::FN, KeyCode::PAGEUP</autogen>
+    <autogen>--KeyToKey-- KeyCode::C, ModifierFlag::FN, KeyCode::PAGEDOWN</autogen>
+    <autogen>--KeyToKey-- KeyCode::V, ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::B, ModifierFlag::FN, KeyCode::KEY_6, ModifierFlag::SHIFT_L</autogen>
+
+    <!-- right hund -->
+    <autogen>--KeyToKey-- KeyCode::Y, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::KEY_5, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::Y, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::SEMICOLON</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::EQUAL</autogen>
+    <autogen>--KeyToKey-- KeyCode::U, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::KEY_4, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::I, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::KEY_2, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::SEMICOLON, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::O, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::KEY_8, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::P, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::KEY_7, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::P, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::KEY_3, ModifierFlag::SHIFT_L</autogen>
+
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::MINUS</autogen>
+    <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::DELETE</autogen>
+    <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::FORWARD_DELETE</autogen>
+    <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::FN, KeyCode::SPACE</autogen>
+    <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::FN, KeyCode::RETURN</autogen>
+    <autogen>--KeyToKey-- KeyCode::SEMICOLON, KeyCode::COMMAND_R</autogen>
+    <autogen>--KeyToKey-- KeyCode::QUOTE, KeyCode::VK_LOCK_SHIFT_L</autogen>
+
+    <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::KEY_9, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::KEY_0, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::BRACKET_LEFT</autogen>
+    <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::KEY_1, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::DOT, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::BRACKET_RIGHT</autogen>
+    <autogen>--KeyToKey-- KeyCode::DOT, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::SLASH, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::FN | ModifierFlag::NONE, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::BACKSLASH</autogen>
+    </item>
+
+    <item>
+    <name>1 ~ 0,-,= + Fn to F1 ~ F12</name>
+    <identifier>private.pianist_functionkey</identifier>
+    <autogen>--KeyToKey-- KeyCode::KEY_1, ModifierFlag::FN, KeyCode::F1</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_2, ModifierFlag::FN, KeyCode::F2</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_3, ModifierFlag::FN, KeyCode::F3</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_4, ModifierFlag::FN, KeyCode::F4</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_5, ModifierFlag::FN, KeyCode::F5</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_6, ModifierFlag::FN, KeyCode::F6</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_7, ModifierFlag::FN, KeyCode::F7</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_8, ModifierFlag::FN, KeyCode::F8</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_9, ModifierFlag::FN, KeyCode::F9</autogen>
+    <autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::FN, KeyCode::F10</autogen>
+    <autogen>--KeyToKey-- KeyCode::MINUS, ModifierFlag::FN, KeyCode::F11</autogen>
+    <autogen>--KeyToKey-- KeyCode::EQUAL, ModifierFlag::FN, KeyCode::F12</autogen>
+    </item>
+
+    <item>
+    <name>Mouse side button browser back</name>
+    <identifier>private.pianist_mouse</identifier>
+    <autogen>--PointingButtonToKey-- PointingButton::BUTTON5, KeyCode::DELETE, ModifierFlag::SHIFT_R</autogen>
+    <autogen>--PointingButtonToKey-- PointingButton::BUTTON4, KeyCode::DELETE</autogen>
+    </item>
+  </item>
+</root>
