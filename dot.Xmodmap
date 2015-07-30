@@ -1,3 +1,6 @@
+! @see http://www.in-ulm.de/~mascheck/X11/xmodmap.html
+! @see `man xmodmap`
+
 ! CapsLock ( 66) => Ctrl_L
 ! Tab      ( 23) => Super_L
 ! Super_L  (133) => Space
@@ -44,10 +47,10 @@ keycode  52 = z Z Home Home
 keycode  53 = x X Prior Prior
 keycode  54 = c C Next Next
 keycode  55 = v V End End
-keycode  56 = b B percent semicolon
+keycode  56 = b B asciicircum
 
 ! right hand
-keycode  29 = y Y asciicircum asciicircum
+keycode  29 = y Y percent semicolon
 keycode  30 = u U equal dollar
 keycode  31 = i I underscore at
 keycode  32 = o O colon asterisk
