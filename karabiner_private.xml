@@ -20,7 +20,7 @@
     <autogen>--KeyToKey-- KeyCode::S, ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
     <autogen>--KeyToKey-- KeyCode::D, ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
     <autogen>--KeyToKey-- KeyCode::F, ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
-    <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::FN, KeyCode::SPACE, ModifierFlag::COMMAND_L</autogen>
+    <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::FN, KeyCode::SPACE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
 
     <autogen>--KeyToKey-- KeyCode::Z, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
     <autogen>--KeyToKey-- KeyCode::X, ModifierFlag::FN, KeyCode::PAGEUP</autogen>
